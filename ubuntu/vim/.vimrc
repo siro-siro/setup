@@ -24,14 +24,14 @@ filetype plugin indent on
 syntax on
 
 set hlsearch
-hi Search ctermfg=0 ctermbg=11 guibg=Yellow
-hi Pmenu ctermbg=255 
-hi PmenuSel ctermbg=22 ctermfg=white
+hi Search ctermfg=black ctermbg=yellow guibg=yellow
+hi Pmenu ctermfg=white ctermbg=black
+hi PmenuSel ctermfg=black ctermbg=darkgreen
 
-nnoremap <esc><esc> :noh<cr>
 nnoremap q<cr> :q<cr>
 nnoremap <space>q :q<cr>
 nnoremap <space><space>q :q!<cr>
 nnoremap <space>w :w<cr>
 nnoremap <space>a :qa<cr>
-
+nnoremap <space>h :noh<cr>
+nnoremap <esc><esc> :noh<cr>
